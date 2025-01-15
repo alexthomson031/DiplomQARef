@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.test.ServiceTest" tests="25" skipped="0" failures="15" errors="0" timestamp="2025-01-08T11:57:54" hostname="SANCHOSPC" time="113.839">
+<testsuite name="ru.netology.test.ServiceTest" tests="25" skipped="0" failures="15" errors="0" timestamp="2025-01-15T10:03:15" hostname="SANCHOSPC" time="113.887">
   <properties/>
-  <testcase name="21. пропущен владелец" classname="ru.netology.test.ServiceTest" time="3.873"/>
-  <testcase name="18. Fail Element not found {.input__sub} владелец цифрами" classname="ru.netology.test.ServiceTest" time="5.873">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337484460.0.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337484460.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
+  <testcase name="21. пропущен владелец" classname="ru.netology.test.ServiceTest" time="5.655"/>
+  <testcase name="18. Fail Element not found {.input__sub} владелец цифрами" classname="ru.netology.test.ServiceTest" time="5.315">
+    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935406535.0.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935406535.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
 Expected: exact text &quot;Поле обязательно для заполнения&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337484460.0.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337484460.0.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935406535.0.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935406535.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -113,14 +113,14 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
+Command: [9598d7a0a61215fc2547f8bfbb10979d, findElement {using=css selector, value=span.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9598d7a0a61215fc2547f8bfbb10979d
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -143,14 +143,14 @@ Session ID: e24e151385671f2dbb0cf0c2d49873a9
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="1. passed" classname="ru.netology.test.ServiceTest" time="9.993"/>
-  <testcase name="11. passed" classname="ru.netology.test.ServiceTest" time="1.145"/>
-  <testcase name="5. passed" classname="ru.netology.test.ServiceTest" time="1.14"/>
-  <testcase name="15. Element not found {.input__sub} владелец может содержать 1 фамилию Русск" classname="ru.netology.test.ServiceTest" time="5.239">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Введите полное имя и фамилию&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337502016.1.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337502016.1.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
+  <testcase name="1. passed" classname="ru.netology.test.ServiceTest" time="11.168"/>
+  <testcase name="11. passed" classname="ru.netology.test.ServiceTest" time="1.05"/>
+  <testcase name="5. passed" classname="ru.netology.test.ServiceTest" time="1.316"/>
+  <testcase name="15. Element not found {.input__sub} владелец может содержать 1 фамилию Русск" classname="ru.netology.test.ServiceTest" time="5.361">
+    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Введите полное имя и фамилию&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935425422.1.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935425422.1.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
 Expected: exact text &quot;Введите полное имя и фамилию&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337502016.1.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337502016.1.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935425422.1.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935425422.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -257,14 +257,14 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
+Command: [9598d7a0a61215fc2547f8bfbb10979d, findElement {using=css selector, value=span.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9598d7a0a61215fc2547f8bfbb10979d
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -287,11 +287,11 @@ Session ID: e24e151385671f2dbb0cf0c2d49873a9
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="17. Element not found {.input__sub} владелец 3000 символов" classname="ru.netology.test.ServiceTest" time="10.809">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Значение поля не может содержать более 100 символов&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337512880.2.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337512880.2.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
+  <testcase name="17. Element not found {.input__sub} владелец 3000 символов" classname="ru.netology.test.ServiceTest" time="9.088">
+    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Значение поля не может содержать более 100 символов&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935434531.2.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935434531.2.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
 Expected: exact text &quot;Значение поля не может содержать более 100 символов&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337512880.2.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337512880.2.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935434531.2.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935434531.2.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -398,14 +398,14 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
+Command: [9598d7a0a61215fc2547f8bfbb10979d, findElement {using=css selector, value=span.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9598d7a0a61215fc2547f8bfbb10979d
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -428,11 +428,11 @@ Session ID: e24e151385671f2dbb0cf0c2d49873a9
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="19. Element not found {.input__sub} &quot;владелец&quot; с одним символом и выдает &quot;успешно&quot;" classname="ru.netology.test.ServiceTest" time="5.306">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Значение поля должно содержать больше одной буквы&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337518158.3.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337518158.3.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
+  <testcase name="19. Element not found {.input__sub} &quot;владелец&quot; с одним символом и выдает &quot;успешно&quot;" classname="ru.netology.test.ServiceTest" time="5.721">
+    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Значение поля должно содержать больше одной буквы&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935440043.3.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935440043.3.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
 Expected: exact text &quot;Значение поля должно содержать больше одной буквы&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337518158.3.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337518158.3.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935440043.3.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935440043.3.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -539,14 +539,14 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
+Command: [9598d7a0a61215fc2547f8bfbb10979d, findElement {using=css selector, value=span.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9598d7a0a61215fc2547f8bfbb10979d
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -569,13 +569,13 @@ Session ID: e24e151385671f2dbb0cf0c2d49873a9
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="10. отправил пустое поле 'месяц'" classname="ru.netology.test.ServiceTest" time="1.635"/>
-  <testcase name="24. Fail, extra input__sub" classname="ru.netology.test.ServiceTest" time="5.315">
-    <failure message="Element should have exact text &quot;Неверный формат&quot; {span.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Поле обязательно для заполнения&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337525129.4.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337525129.4.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Неверный формат&quot; {span.input__sub}
+  <testcase name="10. отправил пустое поле 'месяц'" classname="ru.netology.test.ServiceTest" time="1.155"/>
+  <testcase name="24. Fail, extra input__sub" classname="ru.netology.test.ServiceTest" time="5.287">
+    <failure message="Element should have exact text &quot;Неверный формат&quot; {span.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Поле обязательно для заполнения&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Поле обязательно для заполнения&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935446721.4.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935446721.4.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Неверный формат&quot; {span.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Поле обязательно для заполнения&lt;/span&gt;'
 Actual value: text=&quot;Поле обязательно для заполнения&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337525129.4.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337525129.4.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935446721.4.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935446721.4.html
 Timeout: 4 s.
 	at com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -680,10 +680,10 @@ Timeout: 4 s.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="25. failed, bc error different" classname="ru.netology.test.ServiceTest" time="5.136">
-    <failure message="List size mismatch: expected: = 1, actual: 5, collection: span.input__sub&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337530274.5.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337530274.5.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ListSizeMismatch">List size mismatch: expected: = 1, actual: 5, collection: span.input__sub
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337530274.5.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337530274.5.html
+  <testcase name="25. failed, bc error different" classname="ru.netology.test.ServiceTest" time="4.959">
+    <failure message="List size mismatch: expected: = 1, actual: 5, collection: span.input__sub&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935451626.5.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935451626.5.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ListSizeMismatch">List size mismatch: expected: = 1, actual: 5, collection: span.input__sub
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935451626.5.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935451626.5.html
 Timeout: 4 s.
 	at com.codeborne.selenide.collections.ExactTexts.fail(ExactTexts.java:76)
 	at com.codeborne.selenide.ElementsCollection.waitUntil(ElementsCollection.java:200)
@@ -783,11 +783,11 @@ Timeout: 4 s.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="16. Element not found {.input__sub} владелец может содержать 1 фамилию Латин" classname="ru.netology.test.ServiceTest" time="5.44">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Введите полное имя и фамилию&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337535705.6.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337535705.6.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
+  <testcase name="16. Element not found {.input__sub} владелец может содержать 1 фамилию Латин" classname="ru.netology.test.ServiceTest" time="5.21">
+    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Введите полное имя и фамилию&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935456839.6.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935456839.6.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
 Expected: exact text &quot;Введите полное имя и фамилию&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337535705.6.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337535705.6.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935456839.6.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935456839.6.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -894,14 +894,14 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
+Command: [9598d7a0a61215fc2547f8bfbb10979d, findElement {using=css selector, value=span.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9598d7a0a61215fc2547f8bfbb10979d
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -924,12 +924,12 @@ Session ID: e24e151385671f2dbb0cf0c2d49873a9
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="6. пустое поле 'карта'" classname="ru.netology.test.ServiceTest" time="1.171"/>
-  <testcase name="7. неверно указал месяц(00) + год(next) сервис принимает" classname="ru.netology.test.ServiceTest" time="5.349">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Неверно указан срок действия карты&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337542211.7.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337542211.7.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
+  <testcase name="6. пустое поле 'карта'" classname="ru.netology.test.ServiceTest" time="0.878"/>
+  <testcase name="7. неверно указал месяц(00) + год(next) сервис принимает" classname="ru.netology.test.ServiceTest" time="5.2">
+    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Неверно указан срок действия карты&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935462960.7.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935462960.7.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
 Expected: exact text &quot;Неверно указан срок действия карты&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337542211.7.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337542211.7.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935462960.7.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935462960.7.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1036,14 +1036,14 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
+Command: [9598d7a0a61215fc2547f8bfbb10979d, findElement {using=css selector, value=span.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9598d7a0a61215fc2547f8bfbb10979d
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -1066,13 +1066,13 @@ Session ID: e24e151385671f2dbb0cf0c2d49873a9
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="2. passed" classname="ru.netology.test.ServiceTest" time="5.36"/>
-  <testcase name="22. Fail 1 ссв" classname="ru.netology.test.ServiceTest" time="5.357">
-    <failure message="Element should have exact text &quot;Значение поля должно содержать 3 цифры&quot; {span.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337552948.8.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337552948.8.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Значение поля должно содержать 3 цифры&quot; {span.input__sub}
+  <testcase name="2. passed" classname="ru.netology.test.ServiceTest" time="7.229"/>
+  <testcase name="22. Fail 1 ссв" classname="ru.netology.test.ServiceTest" time="5.21">
+    <failure message="Element should have exact text &quot;Значение поля должно содержать 3 цифры&quot; {span.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935475358.8.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935475358.8.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Значение поля должно содержать 3 цифры&quot; {span.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337552948.8.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337552948.8.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935475358.8.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935475358.8.html
 Timeout: 4 s.
 	at com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -1177,11 +1177,11 @@ Timeout: 4 s.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="13. Element not found {.input__sub} владелец может содержать 1 имя Русск" classname="ru.netology.test.ServiceTest" time="5.437">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Введите полное имя и фамилию&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337558375.9.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337558375.9.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
+  <testcase name="13. Element not found {.input__sub} владелец может содержать 1 имя Русск" classname="ru.netology.test.ServiceTest" time="5.088">
+    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Введите полное имя и фамилию&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935480442.9.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935480442.9.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
 Expected: exact text &quot;Введите полное имя и фамилию&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337558375.9.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337558375.9.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935480442.9.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935480442.9.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1288,14 +1288,14 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
+Command: [9598d7a0a61215fc2547f8bfbb10979d, findElement {using=css selector, value=span.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9598d7a0a61215fc2547f8bfbb10979d
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -1318,12 +1318,12 @@ Session ID: e24e151385671f2dbb0cf0c2d49873a9
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="3. DECLINED, DANGER банк одобрил!!!!" classname="ru.netology.test.ServiceTest" time="5.84">
-    <failure message="Element should have exact text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification__content}&#13;&#10;Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337564216.10.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337564216.10.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification__content}
+  <testcase name="3. DECLINED, DANGER банк одобрил!!!!" classname="ru.netology.test.ServiceTest" time="5.309">
+    <failure message="Element should have exact text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification__content}&#13;&#10;Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935485601.10.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935485601.10.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification__content}
 Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: text=&quot;&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337564216.10.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337564216.10.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935485601.10.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935485601.10.html
 Timeout: 4 s.
 	at com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -1428,12 +1428,12 @@ Timeout: 4 s.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="23. Fail 2 ссв" classname="ru.netology.test.ServiceTest" time="5.523">
-    <failure message="Element should have exact text &quot;Значение поля должно содержать 3 цифры&quot; {span.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337569685.11.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337569685.11.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Значение поля должно содержать 3 цифры&quot; {span.input__sub}
+  <testcase name="23. Fail 2 ссв" classname="ru.netology.test.ServiceTest" time="5.202">
+    <failure message="Element should have exact text &quot;Значение поля должно содержать 3 цифры&quot; {span.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935490991.11.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935490991.11.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Значение поля должно содержать 3 цифры&quot; {span.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337569685.11.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337569685.11.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935490991.11.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935490991.11.html
 Timeout: 4 s.
 	at com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -1538,16 +1538,14 @@ Timeout: 4 s.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="9. неверно указал месяц(прошлый) + год(прошлый)" classname="ru.netology.test.ServiceTest" time="5.26">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Неверно указан срок действия карты&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337574992.12.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337574992.12.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
-Expected: exact text &quot;Неверно указан срок действия карты&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337574992.12.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337574992.12.html
+  <testcase name="9. неверно указал месяц(прошлый) + год(прошлый)" classname="ru.netology.test.ServiceTest" time="5.093">
+    <failure message="Element should have exact text &quot;Неверно указан срок действия карты&quot; {span.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Истёк срок действия карты&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Истёк срок действия карты&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935496069.12.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935496069.12.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Неверно указан срок действия карты&quot; {span.input__sub}
+Element: '&lt;span class=&quot;input__sub&quot;&gt;Истёк срок действия карты&lt;/span&gt;'
+Actual value: text=&quot;Истёк срок действия карты&quot;
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935496069.12.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935496069.12.html
 Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
-	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)
-	at com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
 	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -1648,46 +1646,17 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
-	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
-	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)
-	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
-	... 99 more
 </failure>
   </testcase>
-  <testcase name="20. passed" classname="ru.netology.test.ServiceTest" time="0.944"/>
-  <testcase name="12. отправил пустое поле 'год'" classname="ru.netology.test.ServiceTest" time="0.94"/>
-  <testcase name="8. неверно указал месяц(13) + год(прошлый)" classname="ru.netology.test.ServiceTest" time="1.175"/>
-  <testcase name="4. сервис принимает для оплаты карту &quot;9999 9999 9999 9999&quot; спустя 15 сек ожид" classname="ru.netology.test.ServiceTest" time="5.219">
-    <failure message="Element should have exact text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification__content}&#13;&#10;Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337583268.13.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337583268.13.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification__content}
+  <testcase name="20. passed" classname="ru.netology.test.ServiceTest" time="0.863"/>
+  <testcase name="12. отправил пустое поле 'год'" classname="ru.netology.test.ServiceTest" time="0.884"/>
+  <testcase name="8. неверно указал месяц(13) + год(прошлый)" classname="ru.netology.test.ServiceTest" time="0.965"/>
+  <testcase name="4. сервис принимает для оплаты карту &quot;9999 9999 9999 9999&quot; спустя 15 сек ожид" classname="ru.netology.test.ServiceTest" time="5.469">
+    <failure message="Element should have exact text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification__content}&#13;&#10;Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935504274.13.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935504274.13.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Ошибка! Банк отказал в проведении операции.&quot; {.notification__content}
 Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: text=&quot;&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337583268.13.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337583268.13.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935504274.13.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935504274.13.html
 Timeout: 4 s.
 	at com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -1792,11 +1761,11 @@ Timeout: 4 s.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="14. Element not found {.input__sub} владелец может содержать 1 имя Латин" classname="ru.netology.test.ServiceTest" time="5.355">
-    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Введите полное имя и фамилию&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337588615.14.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337588615.14.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
+  <testcase name="14. Element not found {.input__sub} владелец может содержать 1 имя Латин" classname="ru.netology.test.ServiceTest" time="5.205">
+    <failure message="Element not found {span.input__sub}&#13;&#10;Expected: exact text &quot;Введите полное имя и фамилию&quot;&#13;&#10;Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935509437.14.png&#13;&#10;Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935509437.14.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {span.input__sub}
 Expected: exact text &quot;Введите полное имя и фамилию&quot;
-Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337588615.14.png
-Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736337588615.14.html
+Screenshot: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935509437.14.png
+Page source: file:/C:/Automatization%20Study/Sasha-master/build/reports/tests/1736935509437.14.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1903,14 +1872,14 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;span.input__sub&quot;}
-  (Session info: chrome=131.0.6778.205)
+  (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24e151385671f2dbb0cf0c2d49873a9, findElement {using=css selector, value=span.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53690/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e24e151385671f2dbb0cf0c2d49873a9
+Command: [9598d7a0a61215fc2547f8bfbb10979d, findElement {using=css selector, value=span.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\athom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9598d7a0a61215fc2547f8bfbb10979d
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -1936,7 +1905,7 @@ Session ID: e24e151385671f2dbb0cf0c2d49873a9
   <system-out><![CDATA[APPROVED
 APPROVED
 ]]></system-out>
-  <system-err><![CDATA[???. 08, 2025 2:57:55 PM io.opentelemetry.api.GlobalOpenTelemetry maybeAutoConfigureAndSetGlobal
+  <system-err><![CDATA[???. 15, 2025 1:03:15 PM io.opentelemetry.api.GlobalOpenTelemetry maybeAutoConfigureAndSetGlobal
 INFO: AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
 java.sql.SQLException: Access denied for user 'app'@'172.18.0.1' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
@@ -2046,10 +2015,10 @@ java.sql.SQLException: Access denied for user 'app'@'172.18.0.1' (using password
 SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-???. 08, 2025 2:57:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+???. 15, 2025 1:03:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 131
-???. 08, 2025 2:57:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 131.0.6778.205. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+???. 15, 2025 1:03:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.6778.265. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 java.sql.SQLException: Access denied for user 'app'@'172.18.0.1' (using password: YES)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)

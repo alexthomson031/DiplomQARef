@@ -93,7 +93,7 @@ public class ServiceTest extends CoreTestCase {
     @Tag("fail")
     @DisplayName("9. неверно указал месяц(прошлый) + год(прошлый)")
     void notBuyInPaymentGateWithExpiredMonth() {
-        DataHelper.PurchaseInfo purchaseInfo = new DataHelper.PurchaseInfo(getApprovedNumber(), getLastMonth(), getCurrentYear(), getValidName(), getValidCvc());
+        DataHelper.PurchaseInfo purchaseInfo = new DataHelper.PurchaseInfo(getApprovedNumber(), "12", "24", getValidName(), getValidCvc());
         buyPage().notificationPage(purchaseInfo);
         buyPage().checkInvalidDate();
     }
