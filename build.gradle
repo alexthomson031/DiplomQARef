@@ -31,4 +31,11 @@ dependencies {
 test {
     useJUnitPlatform()
     systemProperty 'selenide.headless', System.getProperty('selenide.headless')
+
+
+    systemProperty 'approvedCardNumber', project.hasProperty('APPROVED_CARD_NUMBER') ? project.APPROVED_CARD_NUMBER : ''
+    systemProperty 'shortCardNumber', project.hasProperty('SHORT_CARD_NUMBER') ? project.SHORT_CARD_NUMBER : ''
+    systemProperty 'invalidCardNumber', project.hasProperty('INVALID_CARD_NUMBER') ? project.INVALID_CARD_NUMBER : ''
+    systemProperty 'declinedCardNumber', project.hasProperty('DECLINED_CARD_NUMBER') ? project.DECLINED_CARD_NUMBER : ''
 }
+
